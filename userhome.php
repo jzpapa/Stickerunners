@@ -13,6 +13,7 @@
     <title>Welcome to Sticker Runners!</title>
   </head>
   <body>
+  <?php include ('session.php');?>
         <div class="header">
         <div class="container">
             <div class="navbar">
@@ -23,10 +24,11 @@
             <nav>
                 <ul>
                     <li id="home"><a href="">Home</a></li>
-                    <li id="products"><a href="product.php">Products</a></li>
-                    <li id="about"><a href="about.php">About</a></li>
-                    <li id="contact"><a href="contact.php">Contact</a></li>
-                    <li id="account"><a href="signin.php">Log In</a></li>
+                    <li id="products"><a href="userproduct.php">Products</a></li>
+                    <li id="about"><a href="userabout.php">About</a></li>
+                    <li id="contact"><a href="usercontact.php">Contact</a></li>
+                    <li><a href="userprofile.php" title="<?php echo $username ?>"><label><?php echo $username ?></label></a></li>
+                    <li><a href="logout.php" title="Log out">Log Out</a></li>
                 </ul>
             </nav>
             <a href="cart.html"><img id="cart" src="image/cart.png" width="30px" heigh="30px"></a>
@@ -36,7 +38,7 @@
                 <div class="welcome">
                     <h1>We will bring you <br>A new Style</h1>
                     <p>"Fashion is about dressing according to what's fashionable. Style is more about being yourself." —Oscar de la Renta</p>
-                    <a href="product.php" class="btn">Shop now &#8594</a>
+                    <a href="product.html" class="btn">Shop now &#8594</a>
                 </div>
                 <div class="welcome">
                     <img src="image/welcome.png" alt="">
@@ -52,15 +54,15 @@
         <div class="small-container">
             <div class="row">
                 <div class="cat1">
-                    <a href="menprod.php"><img src="image/clothes.jpg"></a>
+                    <a href="usermenprod.php"><img src="image/clothes.jpg"></a>
                     <p class="featuredWord">Men's Clothing</p>
                 </div>
                 <div class="cat1">
-                    <a href="womenprod.php"><img src="image/women.jpg"></a>
+                    <a href="userwomenprod.php"><img src="image/women.jpg"></a>
                     <p class="featuredWord">Women's Clothing</p>
                 </div>
                 <div class="cat1">
-                    <a href="mugprod.php"><img src="image/mug.jpg"></a>
+                    <a href="usermug.php"><img src="image/mug.jpg"></a>
                     <p class="featuredWord">Mugs</p>
                 </div>
             </div>

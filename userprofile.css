@@ -1,0 +1,171 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family: 'Oswald', sans-serif;
+}
+.top{
+    background-color: rgb(5, 207, 243);
+    margin-bottom: 0;
+    padding-bottom: 0;
+}
+.navbar{
+    display: flex;
+    align-items: center;
+    max-width: 1300px;
+    margin: auto;
+    padding-left: 25px;
+    padding-right: 25px;
+}
+.logo h1{
+    float: left;
+    padding-top: 30px;
+    text-align: left;
+}
+.logo img{
+    float: left;
+}
+nav{
+    flex: 1;
+    text-align: right;
+}
+nav ul{
+    list-style-type: none;
+}
+nav ul li{
+    display: inline-block;
+    margin-right: 20px; 
+}
+nav ul li:hover{
+    text-decoration: underline;
+    text-decoration-thickness: 2px  ;
+}
+
+#cart:hover{
+    width: 40px;
+    height: 40px;
+}
+a{
+    text-decoration: none;
+    color: black;
+}
+#account a{
+    color: blueviolet;
+}
+.profile{
+    margin: 0 30%;
+}
+.profile-top{
+    background: radial-gradient(white, blueviolet);
+}
+.profile-mid{
+    outline-style: solid;
+    outline-width: 2px;
+    outline-color: rgb(223, 219, 219);
+}
+
+.profile nav{
+    margin: 0 10%;
+    flex: 1;
+    text-align: left;
+
+}
+.profile nav ul{
+    list-style-type: none;
+}
+.profile nav ul li{
+    display: inline-block; 
+}
+.profile nav ul li:hover{
+    text-decoration: underline;
+    text-decoration-thickness: 2px  ;
+}
+
+.profile i{
+    float: left;
+    padding-left: 40px;
+    padding-top: 20px;
+}
+.profile-top p{
+    padding-left: 60px;
+    padding-top: 17px;
+    font-size: 13px;
+}
+.profile a:hover{
+    color: #E2E0F3;
+    background: grey;
+}
+
+.profile img{
+    border-radius: 50%;
+    width: 40px;
+    height: 40px;
+    float: left;
+    margin-left: 30px; 
+}
+.profile-top h1{
+    padding-left: 90px;
+    padding-bottom: 10px;
+}
+.mid-about{
+    font-family: Arial, Helvetica, sans-serif;
+    background: rgb(218, 212, 212);
+    margin: 0 10px;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+.mid-about h1{
+    font-size: 20px;
+    font-weight: 10;
+}
+.mid-about p{
+    font-size: 15px;
+}
+#desc{
+    width: 100%;
+    height: 100px;
+}
+
+
+
+
+.footer{
+    background: rgb(51, 51, 51);
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column; 
+}
+.icon a{
+    font-size: 30px;
+    margin: 10px;
+}
+.icon a:hover{
+    color: #E2E0F3;
+}
+
+.clip1{
+    margin-left: 15px;
+    width: 100px;
+    height: 100px;
+    border: solid 2px #fff;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    border-radius: 5px;
+    }
+    .clip1 img {
+    width: 95px;
+    height: 90px;
+    margin: auto;
+    }
+
+    .user-details {
+    width:240px;
+    margin: -30px 0 0 25px;
+    font-size: 16px;
+    line-height: 25px;
+    text-align: center;
+    }
